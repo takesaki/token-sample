@@ -1,0 +1,32 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Untitled Node.js project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"JuanBlanco.solidity",
+				"ms-vscode.vscode-typescript-next",
+				"ms-vscode.js-debug-nightly",
+				"dotenv.dotenv-vscode",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"mikestead.dotenv",
+				"GitHub.copilot",
+				"Arjun.swagger-viewer",
+				"42Crunch.vscode-openapi",
+				"yzhang.markdown-all-in-one",
+				"yzane.markdown-pdf",
+				"DavidAnson.vscode-markdownlint",
+				"kddejong.vscode-cfn-lint",
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"mermade.openapi-lint",
+				"TakumiI.markdowntable",
+				"NomicFoundation.hardhat-solidity"
+			]
+		}
+	}
+}
