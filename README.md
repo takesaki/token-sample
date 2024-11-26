@@ -14,6 +14,12 @@ npm ci
 npx hardhat compile
 ```
 
+スマートコントラクトの自動テスト
+
+```sh
+npx hardhat test --network hardhat
+```
+
 ## ローカルにEVMの構築【動作確認用】
 
 ```sh
